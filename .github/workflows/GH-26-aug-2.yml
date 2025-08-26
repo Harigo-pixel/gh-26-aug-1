@@ -8,7 +8,7 @@ jobs:
         run: |
         
           echo "Hi Bro"
-          echo "How are you"
+          echo "How are you, I am fine Bro. Thanks for Asking"
       - name: print new 
         run: |
           echo "nice bro"
