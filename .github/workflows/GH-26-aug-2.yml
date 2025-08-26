@@ -2,7 +2,7 @@ name: GH 2nd flow
 on: workflow_dispatch
 jobs: 
   second-job:
-    runs_on: ubuntu-latest 
+    runs-on: ubuntu-latest 
     steps:
       - name: print bro
         run: |
