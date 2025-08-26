@@ -1,0 +1,15 @@
+name: GH 2nd flow 
+on: workflow_dispatch
+jobs: 
+  second-job:
+    runs_on: ubuntu-latest 
+    steps:
+      - name: print bro
+        run: |
+        
+          echo "Hi Bro"
+          echo "How are you"
+      - name: print new 
+        run: |
+          echo "nice bro"
+          echo "you can script bro"
